@@ -53,9 +53,10 @@ DevOps Tech Stack:
 server port: 3010
 storybook port: 6006
 
-alternatively 
-go to app & packages folders individually and run command 
-```yarn star```
+#### Alternative Launch
+```yarn start```
+[ from app & packages folders individually ]
+
 ---
 
 ### Node Version Requirement
