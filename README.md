@@ -26,6 +26,7 @@ FE Tech Stack:
 - Styled components
 ---
 BE Tech Stack:
+- Node
 - API Gateway
 - Lambda outside VPC
 - Lambda within VPC
