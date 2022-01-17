@@ -1,0 +1,37 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "author": "kuldip",
+  "license": "MIT",
+  "private": true,
+  "source": "src/index.js",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
+    "@testing-library/react": "^12.1.2",
+    "@types/jest": "^27.0.3",
+    "jest": "^27.3.1",
+    "parcel": "^2.0.1",
+    "reactstrap": "^9.0.1",
+    "styled-components": "^5.3.3"
+  },
+  "scripts": {
+    "start": "yarn parcel src/index.html -p 3010",
+    "build": "yarn parcel build ./src/index.html",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "@types/styled-components": "^5.1.15",
+    "packages": "1.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.20.3",
+    "react-router-dom": "^6.0.2"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}

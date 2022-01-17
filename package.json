@@ -1,0 +1,14 @@
+{
+  "name": "yarn_workspaces_project",
+  "version": "independent",
+  "author": "Kuldip",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "app",
+    "packages"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
